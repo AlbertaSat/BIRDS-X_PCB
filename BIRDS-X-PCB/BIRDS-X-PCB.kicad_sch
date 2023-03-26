@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c2796b15-795a-4d6e-ad4b-0ba87ded4bc9)
+
+  (paper "USLetter")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 78.74 24.13) (size 27.94 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid adc73a10-1d27-484e-8ce9-d638694b8e29)
+    (property "Sheetname" "RFSheet" (at 78.74 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RFSheet.kicad_sch" (at 78.74 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 60.96 81.28) (size 46.99 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d490f402-3a4d-40a5-b165-30c74c6560b7)
+    (property "Sheetname" "MicrocontrollerSheet" (at 60.96 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MicrocontrollerSheet.kicad_sch" (at 60.96 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 39.37 24.13) (size 22.86 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f0b1214b-f453-423f-b2cf-f5d10e08eafe)
+    (property "Sheetname" "PowerSheet" (at 39.37 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSheet.kicad_sch" (at 39.37 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

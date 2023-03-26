@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BIRDS-X_Symbols_Lib")(type "KiCad")(uri "${KIPRJMOD}/BIRDS-X_Symbols_Lib.kicad_sym")(options "")(descr ""))
+)
