@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECS-252-SMV-080-FN-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS-252-SMV-080-FN-TR.pretty")(options "")(descr ""))
+)
