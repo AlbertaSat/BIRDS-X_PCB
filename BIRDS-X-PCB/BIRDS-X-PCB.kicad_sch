@@ -740,10 +740,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid adc73a10-1d27-484e-8ce9-d638694b8e29)
-    (property "Sheetname" "RFSheet" (at 78.74 23.4184 0)
+    (property "Sheetname" "Experiment" (at 78.74 23.4184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "RFSheet.kicad_sch" (at 78.74 42.4946 0)
+    (property "Sheetfile" "Experiment.kicad_sch" (at 78.74 42.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
