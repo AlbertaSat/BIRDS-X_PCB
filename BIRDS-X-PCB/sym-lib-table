@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "BIRDS-X_Symbols_Lib")(type "KiCad")(uri "${KIPRJMOD}/BIRDS-X_Symbols_Lib.kicad_sym")(options "")(descr ""))
+  (lib (name "BIRDS-X_Symbols_Lib")(type "KiCad")(uri "${KIPRJMOD}/lib/BIRDS-X_Symbols_Lib.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-2520SMV-080-FN-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/ECS-2520SMV-080-FN-TR.kicad_sym")(options "")(descr ""))
 )

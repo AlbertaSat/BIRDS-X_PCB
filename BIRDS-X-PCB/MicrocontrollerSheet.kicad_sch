@@ -1160,7 +1160,7 @@
     (property "Value" "ECS-2520SMV-080-FN-TR" (at 80.01 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ECS-2520SMV-080-FN-TR:ECS-2520SMV-080-FN-TR" (at 80.01 85.09 0)
+    (property "Footprint" "OSC_ECS-2520SMV-080-FN-TR" (at 80.01 85.09 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 80.01 85.09 0)

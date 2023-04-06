@@ -1,6 +1,10 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# New Additions
+BIRDS-X-PCB-backups
+*auto_saved_files*
+
 # Temporary files
 *.000
 *.bak
@@ -25,5 +29,4 @@ fp-info-cache
 *.xml
 *.csv
 
-*auto_saved_files*
 
