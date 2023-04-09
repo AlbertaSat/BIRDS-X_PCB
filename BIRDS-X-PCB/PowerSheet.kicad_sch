@@ -6,10 +6,10 @@
 
   (lib_symbols
     (symbol "BIRDS-X_Symbols_Lib:LTC4361-X_TS8" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 2.54 -13.97 0)
+      (property "Reference" "U" (at -5.08 -13.97 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "" (at 0 0 0)
+      (property "Value" "LTC4361-X" (at 6.35 -13.97 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering" (at 1.27 -30.48 0)
@@ -679,7 +679,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41672813-fa4d-46ad-89f1-13c4f3087151)
   )
-  (text "Protected 5V\nMax \"1.5A\"\nI_TRIP_MIN = 1.71A" (at 132.08 115.57 0)
+  (text "(Auto-Retry on overcurrent)" (at 99.06 82.55 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dad936a6-9edf-4a35-9269-d741297981ed)
+  )
+  (text "Protected 3V3\nMax \"1.5A\"\nI_TRIP_MIN = 1.71A" (at 132.08 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1494b99-e164-41bb-9eae-3a611cf048af)
   )
@@ -723,7 +727,7 @@
   (symbol (lib_id "power:+5V") (at 129.54 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05afd92d-db5d-453d-a3ee-b43091ac4172)
-    (property "Reference" "#PWR010" (at 129.54 40.64 0)
+    (property "Reference" "#PWR0206" (at 129.54 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 129.54 33.02 0)
@@ -739,7 +743,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -767,7 +771,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -776,13 +780,13 @@
   (symbol (lib_id "Device:C") (at 121.92 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a5aafa-fe33-4dca-9ac3-7a84dae4757e)
-    (property "Reference" "C4" (at 125.73 48.895 0)
+    (property "Reference" "C201" (at 125.73 48.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 125.73 51.435 0)
+    (property "Value" "10u" (at 125.73 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 122.8852 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 122.8852 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 49.53 0)
@@ -793,7 +797,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C4") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -802,7 +806,7 @@
   (symbol (lib_id "Transistor_FET:Si1442DH") (at 96.52 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 244857b0-0bb4-46d4-89d4-7847ddfb72f0)
-    (property "Reference" "Q2" (at 96.52 107.95 90)
+    (property "Reference" "Q202" (at 96.52 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SI1470DH" (at 96.52 110.49 90)
@@ -823,20 +827,20 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q2") (unit 1)
+          (reference "Q202") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "BIRDS-X_Symbols_Lib:LTC4361-X_TS8") (at 96.52 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 24ab473c-548d-4148-8d7c-bbd6da5917b8)
-    (property "Reference" "U2" (at 98.4759 77.47 0)
+    (property "Reference" "U201" (at 99.06 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 96.52 62.23 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "LTC4361-2" (at 99.06 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering" (at 97.79 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -855,7 +859,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "U2") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -883,7 +887,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -911,7 +915,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -920,7 +924,7 @@
   (symbol (lib_id "power:+3V3") (at 130.81 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 548966ca-6f84-406b-a186-66433828a33d)
-    (property "Reference" "#PWR014" (at 130.81 113.03 0)
+    (property "Reference" "#PWR0207" (at 130.81 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 130.81 105.41 0)
@@ -936,7 +940,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -945,13 +949,13 @@
   (symbol (lib_id "Device:R") (at 76.2 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 647dea11-aa1f-4d31-bd83-f977b6dab0ee)
-    (property "Reference" "R1" (at 76.2 36.83 90)
+    (property "Reference" "R201" (at 76.2 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.025" (at 76.2 39.37 90)
+    (property "Value" "0.025, PE1206FRE470R025L" (at 76.2 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 76.2 43.688 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 76.2 43.688 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 41.91 0)
@@ -962,7 +966,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R1") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -971,13 +975,13 @@
   (symbol (lib_id "Device:C") (at 123.19 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 852aa616-037a-4c97-8531-2d98072e7796)
-    (property "Reference" "C5" (at 127 121.285 0)
+    (property "Reference" "C202" (at 127 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 127 123.825 0)
+    (property "Value" "10u" (at 127 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 124.1552 125.73 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 124.1552 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 121.92 0)
@@ -988,7 +992,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C5") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -997,7 +1001,7 @@
   (symbol (lib_id "Transistor_FET:Si1442DH") (at 95.25 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0022f94-4f5d-43d6-bbab-b0ca5bfc7e34)
-    (property "Reference" "Q1" (at 95.25 35.56 90)
+    (property "Reference" "Q201" (at 95.25 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SI1470DH" (at 95.25 38.1 90)
@@ -1018,7 +1022,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q1") (unit 1)
+          (reference "Q201") (unit 1)
         )
       )
     )
@@ -1046,7 +1050,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -1055,13 +1059,13 @@
   (symbol (lib_id "Device:R") (at 77.47 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c05050f0-5cad-409c-ac96-84a28cb95af4)
-    (property "Reference" "R2" (at 77.47 109.22 90)
+    (property "Reference" "R202" (at 77.47 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.025" (at 77.47 111.76 90)
+    (property "Value" "0.025, PE1206FRE470R025L" (at 77.47 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.47 116.078 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 77.47 116.078 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 114.3 0)
@@ -1072,7 +1076,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R2") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -1100,20 +1104,20 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "BIRDS-X_Symbols_Lib:LTC4361-X_TS8") (at 97.79 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f469afd0-5b1a-43b6-b088-0ce26de140c9)
-    (property "Reference" "U3" (at 99.7459 149.86 0)
+    (property "Reference" "U202" (at 99.06 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 97.79 134.62 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "LTC4361-2" (at 99.06 151.13 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering" (at 99.06 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1132,7 +1136,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "U3") (unit 1)
+          (reference "U202") (unit 1)
         )
       )
     )
