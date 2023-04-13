@@ -2466,6 +2466,11 @@
     (uuid fe681875-ac54-44ec-8507-67ec8472636b)
   )
 
+  (text "TODO update this symbol to add a part label" (at 170.18 33.02 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 63b63829-14db-4b48-8396-ea02080078ff)
+  )
+
   (global_label "RFET_READ1" (shape input) (at 172.72 59.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0fc204a9-9b1a-44a7-b518-3123fd526c46)
@@ -3441,7 +3446,7 @@
     (pin "1" (uuid e95248a2-5ee1-4be6-971b-051ce6c36f0a))
     (pin "2" (uuid 2088527d-3b8c-4822-96e9-26e087095834))
     (pin "3" (uuid 150c9d7a-5167-45a4-ba48-3e57abd7b82e))
-    (pin "5" (uuid 3262e04e-05d8-4be7-b0d8-c840ca823f55))
+    (pin "5" (uuid 3262e04e-05d8-4be7-b0d8-c840ca823f56))
     (pin "6" (uuid 524acf28-d89b-4a3d-a8fa-7250155daa5f))
     (pin "7" (uuid 262afff6-56ec-4296-9f6d-acf65189fdf9))
     (pin "10" (uuid f974e856-6c6d-4ef5-a468-688c3520105f))
@@ -3449,7 +3454,7 @@
     (pin "9" (uuid d57f32b9-3a1c-4dfe-b812-6d275fde64ec))
     (pin "13" (uuid d170593a-70f7-42ed-9a8b-91795fc5290d))
     (pin "14" (uuid dd11182a-d2d7-4993-90c2-9a94e6496d02))
-    (pin "5" (uuid 3262e04e-05d8-4be7-b0d8-c840ca823f55))
+    (pin "5" (uuid 3262e04e-05d8-4be7-b0d8-c840ca823f56))
     (pin "11" (uuid 58de19e3-e10a-470a-a8cf-490066ff0326))
     (pin "4" (uuid 2748ee2b-e092-47d2-96af-ba9ec1e095b5))
     (instances
