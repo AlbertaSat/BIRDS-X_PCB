@@ -825,7 +825,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d4dd195e-b223-4dd2-b8f8-52698cf68e98)
   )
-  (text "GND is lablled as\n  GND_SYS pin in ICD" (at 115.57 101.6 0)
+  (text "GND is lablled as\n  GND_SYS pin in ICD" (at 118.11 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd16c5f1-0d94-4d14-b55a-b94231728841)
   )
