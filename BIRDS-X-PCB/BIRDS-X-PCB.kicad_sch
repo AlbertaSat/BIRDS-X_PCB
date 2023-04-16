@@ -598,7 +598,6 @@
     )
   )
 
-
   (junction (at 181.61 148.59) (diameter 0) (color 0 0 0 0)
     (uuid 20b56e71-9284-4be9-8a56-c9402fb737f1)
   )
@@ -811,6 +810,11 @@
     (at 172.72 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e59b889-71f3-4711-8d5d-8f9d9b5bba8b)
+  )
+  (text "TODO select one of these on Digikey\nNRPN252PARN-RC or LPC-50M2LG (2mm pitch)"
+    (at 171.45 156.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid acb8103d-07cf-4166-a1bf-bdee723bb75f)
   )
   (text "BOSS is on USART2" (at 229.87 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1092,7 +1096,7 @@
     (property "Reference" "J101" (at 187.96 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NRPN252PARN-RC or LPC-50M2LG (2mm pitch)" (at 187.96 151.13 0)
+    (property "Value" "LPC-50M2LG" (at 187.96 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Horizontal" (at 189.23 118.11 0)
