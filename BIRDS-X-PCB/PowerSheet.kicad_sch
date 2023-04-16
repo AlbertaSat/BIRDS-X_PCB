@@ -1464,7 +1464,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:0.1S7B_3UP") (at 209.55 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f23dc871-4ef2-4af8-9bb4-4215324ec6a4)
-    (property "Reference" "S?" (at 219.71 71.12 0)
+    (property "Reference" "S201" (at 219.71 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1S7B_3UP" (at 209.55 71.12 0)
@@ -1484,7 +1484,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "S?") (unit 1)
+          (reference "S201") (unit 1)
         )
       )
     )

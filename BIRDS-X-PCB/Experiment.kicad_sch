@@ -2106,13 +2106,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:VT01_Radfet") (at 137.16 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09fdaf43-2de2-476c-a305-6eff9675cc8f)
-    (property "Reference" "U305" (at 147.32 86.8957 0)
+    (property "Reference" "U302" (at 147.32 86.8957 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VT01" (at 147.32 89.4357 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 137.16 85.09 0)
+    (property "Footprint" "lib:SOP65P640X120-14N" (at 137.16 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 137.16 85.09 0)
@@ -2127,7 +2127,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U305") (unit 1)
+          (reference "U302") (unit 1)
         )
       )
     )
@@ -2136,7 +2136,7 @@
   (symbol (lib_id "Reference_Current:LM334M") (at 59.69 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d904d09-26ee-4957-b204-f3359a8aeb99)
-    (property "Reference" "U1" (at 63.5 66.9925 0)
+    (property "Reference" "U308" (at 63.5 66.9925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LM334M" (at 63.5 69.5325 0)
@@ -2157,7 +2157,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U1") (unit 1)
+          (reference "U308") (unit 1)
         )
       )
     )
@@ -2166,13 +2166,13 @@
   (symbol (lib_id "Analog_Switch:ADG734") (at 99.06 31.75 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 156b2c7b-b010-4a68-a874-922634b5046b)
-    (property "Reference" "U2" (at 99.06 21.59 90)
+    (property "Reference" "U306" (at 99.06 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADG734" (at 99.06 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 99.06 31.75 0)
+    (property "Footprint" "" (at 99.06 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" (at 99.06 31.75 0)
@@ -2201,7 +2201,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U2") (unit 5)
+          (reference "U306") (unit 5)
         )
       )
     )
@@ -2210,13 +2210,13 @@
   (symbol (lib_id "Analog_Switch:ADG734") (at 99.06 114.3 180) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16734e41-494f-4175-845d-4ce5ffd287c8)
-    (property "Reference" "U2" (at 99.06 119.38 0)
+    (property "Reference" "U306" (at 99.06 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADG734" (at 99.06 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 99.06 114.3 0)
+    (property "Footprint" "" (at 99.06 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" (at 99.06 114.3 0)
@@ -2245,7 +2245,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U2") (unit 3)
+          (reference "U306") (unit 3)
         )
       )
     )
@@ -2330,13 +2330,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:TL974IPWR") (at 186.69 113.03 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f0b6c34-e701-4dc0-9d51-7ba626efe6b3)
-    (property "Reference" "U?" (at 191.77 110.49 0)
+    (property "Reference" "U305" (at 186.69 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL974IPWR" (at 189.23 107.95 0)
+    (property "Value" "TL974IPWR" (at 186.69 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "lib:SOP65P640X120-14N" (at 185.42 107.95 0)
+    (property "Footprint" "" (at 185.42 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 107.95 0)
@@ -2359,7 +2359,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U?") (unit 3)
+          (reference "U305") (unit 3)
         )
       )
     )
@@ -2572,13 +2572,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:TL974IPWR") (at 186.69 142.24 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6459ce5b-16d1-41f6-b170-9e5f6a7a9791)
-    (property "Reference" "U?" (at 191.77 139.7 0)
+    (property "Reference" "U305" (at 186.69 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL974IPWR" (at 189.23 137.16 0)
+    (property "Value" "TL974IPWR" (at 186.69 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "lib:SOP65P640X120-14N" (at 185.42 137.16 0)
+    (property "Footprint" "" (at 185.42 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 137.16 0)
@@ -2601,7 +2601,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U?") (unit 4)
+          (reference "U305") (unit 4)
         )
       )
     )
@@ -2636,13 +2636,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:TL974IPWR") (at 186.69 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e22d60d-4c91-4e0b-9506-498945808e0b)
-    (property "Reference" "U?" (at 191.77 59.69 0)
+    (property "Reference" "U305" (at 191.77 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL974IPWR" (at 189.23 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "lib:SOP65P640X120-14N" (at 185.42 57.15 0)
+    (property "Footprint" "" (at 185.42 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 57.15 0)
@@ -2665,7 +2665,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U?") (unit 1)
+          (reference "U305") (unit 1)
         )
       )
     )
@@ -2674,13 +2674,13 @@
   (symbol (lib_id "Analog_Switch:ADG734") (at 99.06 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 744f874c-4332-4f17-bd9d-66b76b126e2b)
-    (property "Reference" "U2" (at 99.06 64.77 0)
+    (property "Reference" "U306" (at 99.06 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADG734" (at 99.06 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 99.06 59.69 0)
+    (property "Footprint" "" (at 99.06 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" (at 99.06 59.69 0)
@@ -2709,7 +2709,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U2") (unit 1)
+          (reference "U306") (unit 1)
         )
       )
     )
@@ -2743,13 +2743,13 @@
   (symbol (lib_id "Analog_Switch:ADG734") (at 99.06 142.24 180) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f7e17c9-9c84-49f4-b20a-026577957a88)
-    (property "Reference" "U2" (at 99.06 147.32 0)
+    (property "Reference" "U306" (at 99.06 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADG734" (at 99.06 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 99.06 142.24 0)
+    (property "Footprint" "" (at 99.06 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" (at 99.06 142.24 0)
@@ -2778,7 +2778,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U2") (unit 4)
+          (reference "U306") (unit 4)
         )
       )
     )
@@ -2840,13 +2840,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:TL974IPWR") (at 186.69 86.36 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8560eed4-ab87-4169-bde8-62429c4cd294)
-    (property "Reference" "U?" (at 191.77 83.82 0)
+    (property "Reference" "U305" (at 186.69 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL974IPWR" (at 189.23 81.28 0)
+    (property "Value" "TL974IPWR" (at 186.69 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "lib:SOP65P640X120-14N" (at 185.42 81.28 0)
+    (property "Footprint" "" (at 185.42 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 81.28 0)
@@ -2869,7 +2869,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U?") (unit 2)
+          (reference "U305") (unit 2)
         )
       )
     )
@@ -2906,13 +2906,13 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:TL974IPWR") (at 189.23 41.91 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 900300bb-a30a-4537-9144-ca9a905a12fe)
-    (property "Reference" "U?" (at 194.31 39.37 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "U305" (at 194.31 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TL974IPWR" (at 191.77 36.83 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "TL974IPWR" (at 194.31 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "lib:SOP65P640X120-14N" (at 187.96 36.83 0)
+    (property "Footprint" "" (at 187.96 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 187.96 36.83 0)
@@ -2935,7 +2935,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U?") (unit 5)
+          (reference "U305") (unit 5)
         )
       )
     )
@@ -2969,7 +2969,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:VT01_Radfet") (at 137.16 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f27af08-bbc4-469c-9b6a-04395e5a2b95)
-    (property "Reference" "U306" (at 147.32 144.0457 0)
+    (property "Reference" "U304" (at 147.32 144.0457 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VT01" (at 147.32 146.5857 0)
@@ -2990,7 +2990,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U306") (unit 1)
+          (reference "U304") (unit 1)
         )
       )
     )
@@ -2999,7 +2999,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:VT01_Radfet") (at 137.16 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0324f69-e1d2-468d-8ac9-0c29e5ec6564)
-    (property "Reference" "U304" (at 147.32 116.1057 0)
+    (property "Reference" "U303" (at 147.32 116.1057 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VT01" (at 147.32 118.6457 0)
@@ -3020,7 +3020,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U304") (unit 1)
+          (reference "U303") (unit 1)
         )
       )
     )
@@ -3156,13 +3156,13 @@
   (symbol (lib_id "Analog_Switch:ADG734") (at 99.06 85.09 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfb183c8-077d-43f3-8fa0-5c8063875d22)
-    (property "Reference" "U2" (at 99.06 90.17 0)
+    (property "Reference" "U306" (at 99.06 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADG734" (at 99.06 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 99.06 85.09 0)
+    (property "Footprint" "" (at 99.06 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" (at 99.06 85.09 0)
@@ -3191,7 +3191,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/adc73a10-1d27-484e-8ce9-d638694b8e29"
-          (reference "U2") (unit 2)
+          (reference "U306") (unit 2)
         )
       )
     )
