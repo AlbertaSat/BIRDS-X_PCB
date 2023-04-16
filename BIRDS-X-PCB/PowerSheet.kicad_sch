@@ -725,7 +725,6 @@
     )
   )
 
-
   (junction (at 68.58 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 06645f8d-f4c3-4aed-8912-4d47d5af109e)
   )
@@ -2355,7 +2354,7 @@
     (property "Value" "0.1S7B_3UP" (at 210.82 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 207.01 78.74 90)
+    (property "Footprint" "BIRDS-X_Footprints_Lib:Converter_DCDC_Gaptec_0.1S7B_3UP_THT" (at 207.01 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 207.01 78.74 90)
