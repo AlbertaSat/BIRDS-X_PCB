@@ -2635,7 +2635,7 @@
     (property "Value" "MTT4B-Mini" (at 132.08 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 135.89 177.8 0)
+    (property "Footprint" "BIRDS-X_Footprints_Lib:MTT4B-Mini" (at 135.89 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 135.89 177.8 0)

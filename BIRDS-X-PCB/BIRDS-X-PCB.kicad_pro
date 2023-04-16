@@ -243,7 +243,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "BIRDS-X_Footprints_Lib"
+    ],
     "pinned_symbol_libs": [
       "BIRDS-X_Symbols_Lib"
     ]
