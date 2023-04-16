@@ -2663,7 +2663,7 @@
     (property "Value" "MT29F2G01ABAGDWB-IT-G_TR" (at 210.82 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 208.28 140.97 0)
+    (property "Footprint" "BIRDS-X_Footprints_Lib:U-PDFN-8_6x8mm_P1.27mm" (at 208.28 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 208.28 140.97 0)
