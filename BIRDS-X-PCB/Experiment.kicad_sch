@@ -2051,6 +2051,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e038d22-6278-4d41-ba5b-56e3afa058f2)
   )
+  (text "TODO add diode for temperature correction,\nand check new resistor calcs."
+    (at 29.21 74.93 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 68a15273-7bcb-49ca-9986-b725b70dc2d3)
+  )
   (text "TODO confirm 5V is right here\nParker thinks maybe it should be 12V or 24V"
     (at 25.4 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2060,6 +2065,11 @@
     (at 161.29 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5e05e45-6a5f-49e2-b23d-6e0b27ae957d)
+  )
+  (text "TODO confirm if a single current\nsource is adequate (maybe it should be 4x,\nif we want to measure them simultaneously)"
+    (at 29.21 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dddb1741-bdf0-4ac7-bde0-012925558ef0)
   )
 
   (hierarchical_label "RFET_EN4" (shape input) (at 92.71 129.54 180) (fields_autoplaced)
