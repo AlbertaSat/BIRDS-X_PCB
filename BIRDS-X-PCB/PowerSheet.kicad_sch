@@ -1168,6 +1168,15 @@
     (uuid e1494b99-e164-41bb-9eae-3a611cf048af)
   )
 
+  (label "5V_Current_Sense" (at 82.55 44.45 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2a656c1f-4398-4d58-bbac-2fc8cf5edfec)
+  )
+  (label "3V3_Current_Sense" (at 83.82 118.11 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 76b77d5f-8b15-464a-87f8-a3d51ebecca2)
+  )
+
   (global_label "DIO1_3V3_EN_FROM_BOSS" (shape input) (at 66.04 142.24 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6df6ca5a-6b71-4b49-a815-f40a68f5d9cb)
