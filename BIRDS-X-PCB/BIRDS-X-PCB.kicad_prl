@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -8,14 +8,7 @@
       "+5V",
       "GND",
       "+3V3",
-      "+12V",
-      "DIO1_3V3_EN_FROM_BOSS",
-      "DIO2_5V_EN_FROM_BOSS",
-      "MEM_CS",
-      "MEM_MISO",
-      "MEM_MOSI",
-      "MEM_CLK",
-      "BOOT0"
+      "+12V"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -75,7 +68,7 @@
       39,
       40
     ],
-    "visible_layers": "8000000_ffffffff",
+    "visible_layers": "8000020_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
