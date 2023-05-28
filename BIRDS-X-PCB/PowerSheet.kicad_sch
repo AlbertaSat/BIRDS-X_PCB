@@ -1146,7 +1146,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41672813-fa4d-46ad-89f1-13c4f3087151)
   )
-  (text "0.1S7B_0512S3UP (5V -> 12V) [max 8.5 mA]" (at 179.07 55.88 0)
+  (text "0.1S7B_0512S3UP (5V -> 12V) [max 84 mA]" (at 179.07 55.88 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a1d4c049-e673-4aab-8ad6-3c01c0356f19)
   )
