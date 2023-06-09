@@ -1261,6 +1261,23 @@
     )
   )
 
+  (sheet (at 36.83 101.6) (size 31.75 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 245c031a-1c72-4f7a-bf07-271990525459)
+    (property "Sheetname" "RF_System" (at 36.83 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RF_System.kicad_sch" (at 36.83 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 90.17 24.13) (size 27.94 19.05) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
