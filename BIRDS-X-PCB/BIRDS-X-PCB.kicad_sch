@@ -1278,6 +1278,23 @@
     )
   )
 
+  (sheet (at 90.17 54.61) (size 27.94 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 69450ea3-1431-409d-8bc6-7752e7bc3ab3)
+    (property "Sheetname" "PINDiodeExperiment" (at 90.17 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PINDiodeExperiment.kicad_sch" (at 90.17 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 90.17 24.13) (size 27.94 19.05) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
