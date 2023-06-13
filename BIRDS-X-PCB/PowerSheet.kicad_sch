@@ -1158,6 +1158,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1494b99-e164-41bb-9eae-3a611cf048af)
   )
+  (text "TODO add reverse voltage protection" (at 185.42 30.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fcb4cf64-2d87-472e-8cef-d64c981a23a7)
+  )
 
   (label "5V_Current_Sense" (at 82.55 44.45 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
