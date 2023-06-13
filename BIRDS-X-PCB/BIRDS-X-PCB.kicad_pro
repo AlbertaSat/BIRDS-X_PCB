@@ -461,7 +461,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -566,7 +566,19 @@
     ],
     [
       "69450ea3-1431-409d-8bc6-7752e7bc3ab3",
-      "PINDiodeExperiment"
+      "PINDiodeExperiment1"
+    ],
+    [
+      "24de0e99-26aa-4106-b99d-2d4b1437b640",
+      "PINDiodeExperiment2"
+    ],
+    [
+      "20e9fdd9-b39a-4397-9a05-a4dbf181acd2",
+      "PINDiodeExperiment3"
+    ],
+    [
+      "004149c1-7266-4be8-8957-13aaab4479fd",
+      "PINDiodeExperiment4"
     ]
   ],
   "text_variables": {}

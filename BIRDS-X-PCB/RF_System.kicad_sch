@@ -2041,8 +2041,8 @@
     (property "Datasheet" "~" (at 104.14 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f07e4b8e-5ab0-4350-bb19-a3b7cbfb0f5b))
-    (pin "2" (uuid 3525c47d-3125-4d35-be40-7f557fa99f76))
+    (pin "1" (uuid f19b26eb-bdb3-4308-8c78-1ca816430bb2))
+    (pin "2" (uuid e8f4bc82-b9a2-4df1-8c6f-816599f2586e))
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
