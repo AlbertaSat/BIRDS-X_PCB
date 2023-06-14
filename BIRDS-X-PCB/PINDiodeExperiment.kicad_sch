@@ -1459,13 +1459,13 @@
     (pin "1" (uuid ee116e0a-7ae6-40c7-9b81-42011782d029))
     (pin "2" (uuid 84f43b47-2a51-4c33-8f40-0f89b0abde6f))
     (pin "3" (uuid de334bc9-9939-49e1-862d-ec81bd8d876b))
-    (pin "4" (uuid bef82fbc-423d-4f3f-b605-7ffad67fd743))
-    (pin "8" (uuid 387d7ad3-b6ca-4815-a3fe-3752ee2a643a))
-    (pin "4" (uuid bef82fbc-423d-4f3f-b605-7ffad67fd743))
+    (pin "4" (uuid bef82fbc-423d-4f3f-b605-7ffad67fd744))
+    (pin "8" (uuid 387d7ad3-b6ca-4815-a3fe-3752ee2a643b))
+    (pin "4" (uuid bef82fbc-423d-4f3f-b605-7ffad67fd744))
     (pin "5" (uuid 7993b699-7d83-4ab6-a9b5-5b021c22520d))
     (pin "6" (uuid 6e9a4893-340a-46ef-a091-250242075047))
     (pin "7" (uuid cf47e403-4fb1-4f1c-9025-daf9a5970ef4))
-    (pin "8" (uuid 387d7ad3-b6ca-4815-a3fe-3752ee2a643a))
+    (pin "8" (uuid 387d7ad3-b6ca-4815-a3fe-3752ee2a643b))
     (instances
       (project "PIN_Radiation_Detector"
         (path "/a3586dbf-627b-4fd0-9782-efa7de440049"
@@ -1573,13 +1573,13 @@
     (pin "1" (uuid 55d1b0bd-af89-40c2-b88f-6913c890df0a))
     (pin "2" (uuid b08fde84-4f9a-4e7e-9018-ee6d483bf6f1))
     (pin "3" (uuid 39373440-f108-4ddc-b8de-3672bfda27ac))
-    (pin "4" (uuid 8ddd3cc2-59ff-4f4d-a6b5-d3627f3800e5))
-    (pin "8" (uuid a54732a2-456b-4d61-935b-1dec9b2d0d6c))
-    (pin "4" (uuid 8ddd3cc2-59ff-4f4d-a6b5-d3627f3800e5))
+    (pin "4" (uuid 8ddd3cc2-59ff-4f4d-a6b5-d3627f3800e6))
+    (pin "8" (uuid a54732a2-456b-4d61-935b-1dec9b2d0d6d))
+    (pin "4" (uuid 8ddd3cc2-59ff-4f4d-a6b5-d3627f3800e6))
     (pin "5" (uuid 99356880-2883-46fc-8b5a-5d51df604451))
     (pin "6" (uuid 1e928ece-e91d-4208-85f8-dc27c333cc12))
     (pin "7" (uuid b23c6956-96d5-43b9-9aab-f7c9fc862017))
-    (pin "8" (uuid a54732a2-456b-4d61-935b-1dec9b2d0d6c))
+    (pin "8" (uuid a54732a2-456b-4d61-935b-1dec9b2d0d6d))
     (instances
       (project "PIN_Radiation_Detector"
         (path "/a3586dbf-627b-4fd0-9782-efa7de440049"
