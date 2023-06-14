@@ -488,7 +488,7 @@
       "Net-(C536-Pad1)": "RF",
       "Net-(C536-Pad2)": "RF",
       "Net-(C539-Pad2)": "RF",
-      "Net-(C541-Pad2)": "RF",
+      "Net-(J503-In)": "RF",
       "Net-(U501-PA_BOOST)": "RF",
       "Net-(U501-RFI_LF)": "RF",
       "Net-(U501-VR_PA)": "RF",
@@ -496,7 +496,12 @@
       "Net-(U505-RF2)": "RF",
       "Net-(U505-RFC)": "RF"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "SUP_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
