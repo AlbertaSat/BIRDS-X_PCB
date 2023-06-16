@@ -69,7 +69,7 @@
       40
     ],
     "visible_layers": "0009120_fffffff9",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "BIRDS-X-PCB.kicad_prl",
