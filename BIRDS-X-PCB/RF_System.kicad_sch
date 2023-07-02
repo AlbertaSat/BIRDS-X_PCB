@@ -2375,7 +2375,7 @@
     (property "Reference" "C528" (at 139.7 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100pF" (at 139.7 92.71 90)
+    (property "Value" "130pF" (at 139.7 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 143.51 96.8248 0)
