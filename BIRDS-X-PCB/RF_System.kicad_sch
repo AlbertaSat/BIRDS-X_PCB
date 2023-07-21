@@ -1906,7 +1906,7 @@
     (property "Reference" "C532" (at 182.88 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4.7pF" (at 182.88 105.41 0)
+    (property "Value" "47pF" (at 182.88 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 178.1048 100.33 0)
