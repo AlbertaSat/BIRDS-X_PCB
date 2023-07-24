@@ -1,19 +1,21 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
-      "+3V3"
+      "+3V3",
+      "/MicrocontrollerSheet/PA12",
+      "/MicrocontrollerSheet/PA11"
     ],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
-      "pads": 1.0,
-      "tracks": 1.0,
+      "pads": 0.8500000238418579,
+      "tracks": 0.800000011920929,
       "vias": 0.5400000214576721,
       "zones": 0.6
     },
@@ -66,7 +68,7 @@
       36,
       40
     ],
-    "visible_layers": "0009100_fffffff9",
+    "visible_layers": "0009000_fffffff9",
     "zone_display_mode": 1
   },
   "meta": {

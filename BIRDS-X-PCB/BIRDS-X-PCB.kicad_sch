@@ -1581,6 +1581,14 @@
     (property "Sheetfile" "TempSensors.kicad_sch" (at 90.17 25.9846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "I2C_SCL" input (at 118.11 20.32 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 1302e972-cb45-4161-892e-600465d69ac5)
+    )
+    (pin "I2C_SDA" bidirectional (at 118.11 22.86 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 75190d2e-f404-4774-9541-8cf09b04eb06)
+    )
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9" (page "11"))
