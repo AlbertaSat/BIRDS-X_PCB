@@ -1334,13 +1334,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 245.11 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 121b6ff3-9c17-45c3-861f-371974b1f46a)
-    (property "Reference" "J1" (at 247.65 71.12 0)
+    (property "Reference" "J1001" (at 247.65 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 247.65 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 245.11 72.39 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" (at 245.11 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 72.39 0)
@@ -1352,7 +1352,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "J1") (unit 1)
+          (reference "J1001") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
           (reference "R406") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "R1") (unit 1)
+          (reference "R1006") (unit 1)
         )
       )
     )
@@ -1651,7 +1651,7 @@
           (reference "C402") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1") (unit 1)
+          (reference "C1005") (unit 1)
         )
       )
     )
@@ -2295,7 +2295,7 @@
           (reference "C501") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C2") (unit 1)
+          (reference "C1004") (unit 1)
         )
       )
     )
@@ -2338,7 +2338,7 @@
           (reference "U501") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "U1") (unit 1)
+          (reference "U1002") (unit 1)
         )
       )
     )
@@ -2347,10 +2347,10 @@
   (symbol (lib_id "Device:LED") (at 52.07 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f47528e5-6185-4ddc-a624-8f8d7c226c7f)
-    (property "Reference" "D203" (at 55.88 111.4425 90)
+    (property "Reference" "D203" (at 55.88 110.8075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 55.88 113.9825 90)
+    (property "Value" "LED" (at 55.88 113.3475 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (at 52.07 110.49 0)
@@ -2370,7 +2370,7 @@
           (reference "D401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "D1") (unit 1)
+          (reference "D1004") (unit 1)
         )
       )
     )
