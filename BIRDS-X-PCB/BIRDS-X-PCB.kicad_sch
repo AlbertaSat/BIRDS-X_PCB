@@ -1431,6 +1431,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 50.8 184.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2e53e750-9a82-4f73-ad5b-b1737a1ab5fb)
+    (property "Reference" "H106" (at 53.34 182.88 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Logo" (at 53.34 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BIRDS-X_Footprints_Lib:CTS_Logo_50x25mm" (at 50.8 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 50.8 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9"
+          (reference "H106") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 83.82 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3114683c-9787-4c40-9919-e9b3ae839eb1)
@@ -1823,6 +1847,30 @@
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9"
           (reference "H103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 50.8 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid df0ccee7-7683-45f4-a1cb-ac716e8dc88d)
+    (property "Reference" "H105" (at 53.34 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Logo" (at 53.34 180.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BIRDS-X_Footprints_Lib:AlbertaSat_Logo_25x20mm" (at 50.8 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 50.8 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BIRDS-X-PCB"
+        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9"
+          (reference "H105") (unit 1)
         )
       )
     )
