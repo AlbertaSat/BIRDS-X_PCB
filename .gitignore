@@ -2,7 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # New Additions
-BIRDS-X-PCB-backups
+*-backups
 *auto_saved_files*
 replicate_layout.log
 
