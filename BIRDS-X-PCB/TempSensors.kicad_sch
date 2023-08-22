@@ -600,9 +600,6 @@
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
           (reference "C401") (unit 1)
         )
-        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1001") (unit 1)
-        )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/5755fbb2-55c5-474e-9234-a274af8db463"
           (reference "C1101") (unit 1)
         )
@@ -674,9 +671,6 @@
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
           (reference "C401") (unit 1)
-        )
-        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1001") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/5755fbb2-55c5-474e-9234-a274af8db463"
           (reference "C1104") (unit 1)
@@ -858,9 +852,6 @@
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
           (reference "C401") (unit 1)
-        )
-        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1001") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/5755fbb2-55c5-474e-9234-a274af8db463"
           (reference "C1105") (unit 1)
@@ -1141,9 +1132,6 @@
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
           (reference "C401") (unit 1)
-        )
-        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1001") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/5755fbb2-55c5-474e-9234-a274af8db463"
           (reference "C1102") (unit 1)
@@ -1586,9 +1574,6 @@
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
           (reference "C401") (unit 1)
-        )
-        (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459/99e8c1ae-7e35-4da7-a263-12b7b7656438"
-          (reference "C1001") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/5755fbb2-55c5-474e-9234-a274af8db463"
           (reference "C1103") (unit 1)
