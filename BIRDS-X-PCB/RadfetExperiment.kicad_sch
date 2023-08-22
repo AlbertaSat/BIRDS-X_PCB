@@ -3311,7 +3311,7 @@
     (property "Value" "Jumper_2_Open" (at 64.77 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 64.77 59.69 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 64.77 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 59.69 0)
