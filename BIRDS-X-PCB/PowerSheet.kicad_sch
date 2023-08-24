@@ -4,6 +4,10 @@
 
   (paper "USLetter")
 
+  (title_block
+    (rev "Rev5.0")
+  )
+
   (lib_symbols
     (symbol "BIRDS-X_Symbols_Lib:0.1S7B_3UP" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 13.97 7.62 0)

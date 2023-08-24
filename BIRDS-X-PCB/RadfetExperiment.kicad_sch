@@ -4,6 +4,10 @@
 
   (paper "USLetter")
 
+  (title_block
+    (rev "Rev5.0")
+  )
+
   (lib_symbols
     (symbol "Analog_Switch:ADG734" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.175 5.334 0)
