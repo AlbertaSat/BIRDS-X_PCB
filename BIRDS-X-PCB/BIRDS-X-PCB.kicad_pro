@@ -497,7 +497,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BIRDS-X-PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
