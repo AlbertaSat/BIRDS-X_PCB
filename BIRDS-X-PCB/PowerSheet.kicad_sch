@@ -5,7 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (rev "Rev5.0")
+    (date "2023-09-07")
+    (rev "Rev5.1")
   )
 
   (lib_symbols
@@ -1508,10 +1509,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b72a8c6-f369-43ae-9009-6a8b29ec123d)
   )
-  (text "TODO switch to one of these if we can order one" (at 193.04 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1acdd475-e637-4c33-a5ca-967f74fc03eb)
-  )
   (text "Breakout/Test/Direct Injection" (at 176.53 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1e62a1eb-c9b5-46b1-8e18-897a68ea065c)
@@ -2001,7 +1998,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 213.36 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4d7988e3-ee85-4b89-87a2-b882dbf02b6d)
     (property "Reference" "R204" (at 215.9 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2347,7 +2344,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 198.12 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 8a719e6b-1ae3-40f6-bce4-3f3446c1035f)
     (property "Reference" "R203" (at 200.66 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2399,7 +2396,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 180.34 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 9bddc221-723b-4a75-bbe5-a3696aba919d)
     (property "Reference" "J203" (at 182.88 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2479,7 +2476,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 180.34 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid a5d28c11-d7f2-469c-a20d-b2cb83009bf6)
     (property "Reference" "J201" (at 182.88 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2572,8 +2569,8 @@
     (property "Datasheet" "~" (at 213.36 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af545250-1b0f-4895-bae9-ce2c209dd64a))
-    (pin "2" (uuid 4fc1761f-7eb5-4dae-bd7f-b70dbadd713a))
+    (pin "1" (uuid ffbed256-4046-4ce7-9b37-ab76d76a76b2))
+    (pin "2" (uuid e162f23a-1b7c-42f8-951f-0931767d5201))
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
@@ -2584,7 +2581,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 228.6 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aa3336a5-e117-4aff-9c15-7a417af74b1a)
     (property "Reference" "R205" (at 231.14 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2610,7 +2607,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 201.93 88.9 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid aa8f2a01-f620-458c-ba40-4ee1576b6972)
     (property "Reference" "C206" (at 201.93 82.55 90)
       (effects (font (size 1.27 1.27)))
@@ -2681,8 +2678,8 @@
     (property "Datasheet" "~" (at 198.12 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5f5e4464-ba7b-43fd-804a-22df2620454a))
-    (pin "2" (uuid 95e534e3-9817-4fca-90cb-493d8a7cb43e))
+    (pin "1" (uuid 6cbb52cb-3739-43c9-af47-af67d1c61c37))
+    (pin "2" (uuid ad1a971a-3dd1-4745-93f5-19312e15da55))
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
@@ -2707,8 +2704,8 @@
     (property "Datasheet" "~" (at 228.6 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af71559f-e7d2-45ea-b086-03183472d71a))
-    (pin "2" (uuid 6e954230-7a55-46b7-bfb8-2aaac50b6cd0))
+    (pin "1" (uuid f6b49f63-3dd8-4a9f-b122-86a2ac9644f6))
+    (pin "2" (uuid a9cb7d48-7973-4f33-a312-5a266a382619))
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
@@ -2882,7 +2879,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 180.34 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid d3dc0f30-9d07-4df3-a341-e0958a98a1c5)
     (property "Reference" "J202" (at 182.88 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))

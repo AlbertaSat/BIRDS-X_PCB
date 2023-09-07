@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-08-23")
-    (rev "Rev5.0")
+    (date "2023-09-07")
+    (rev "Rev5.1")
   )
 
   (lib_symbols
@@ -1259,6 +1259,10 @@
   (text "12V is the default" (at 49.53 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dee29157-2010-453f-9abc-d963dadc666f)
+  )
+  (text "Rev5.1: All Open" (at 62.23 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e306e7d9-3c84-456a-a33a-12c8164455b7)
   )
   (text "Corner Mounting" (at 26.67 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

@@ -5,7 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (rev "Rev5.0")
+    (date "2023-09-07")
+    (rev "Rev5.1")
   )
 
   (lib_symbols
@@ -1611,6 +1612,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 49858b59-eb3b-413d-8885-bef1a1d713b1)
   )
+  (text "Rev5.1: JP401 and JP402 are all open." (at 33.02 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 60a43e5c-07ac-4967-95a2-3caa9eccad00)
+  )
   (text "BOOT1 Mode:\n Default: LOW (2-3)" (at 55.88 196.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72b00902-353c-47e6-888b-012716d20240)
@@ -1882,7 +1887,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 83.82 71.12 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 030fcdd4-8960-4804-ab54-44536232f1f8)
     (property "Reference" "SW401" (at 85.09 70.485 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2122,7 +2127,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 118.11 118.11 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1f08ac51-e40e-443c-804a-f81833eb621c)
     (property "Reference" "J403" (at 115.57 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2328,7 +2333,7 @@
   )
 
   (symbol (lib_id "Device:Crystal") (at 241.3 154.94 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 32e66a97-2277-4ceb-9670-4b4f7304d5cd)
     (property "Reference" "Y402" (at 245.11 153.67 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3127,7 +3132,7 @@
   )
 
   (symbol (lib_id "Device:Crystal") (at 198.12 154.94 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid a63afaa4-beb4-454d-989b-1455df4f16fc)
     (property "Reference" "Y401" (at 201.93 153.67 90)
       (effects (font (size 1.27 1.27)) (justify right))
