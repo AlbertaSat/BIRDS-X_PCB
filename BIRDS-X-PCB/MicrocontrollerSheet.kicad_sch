@@ -2481,14 +2481,14 @@
     (property "LCSC" "C410863" (at 49.53 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a58fe71f-1c83-410e-950e-6181fdfd9d6d))
-    (pin "2" (uuid 5135a8e3-4d28-4b26-9884-a0658fea392c))
-    (pin "3" (uuid dd0aef09-2e03-491c-ac40-41510e487358))
-    (pin "4" (uuid e1080462-29b9-470a-9e3f-10a54d2c2a32))
-    (pin "5" (uuid 9aa8d9bc-8246-42b0-a10d-47b1f3c0522e))
-    (pin "6" (uuid bddd2c0b-dddf-4eaa-b628-b5598fb90958))
-    (pin "7" (uuid 05a6f03a-f8df-48be-b0f1-69eff5ff689b))
-    (pin "8" (uuid d32a4146-7806-48a5-966b-d0de30a1eb1f))
+    (pin "1" (uuid 3ec19f71-be7d-4acd-b63e-da8886819074))
+    (pin "2" (uuid 7221d231-25b2-41ec-8dae-8dd2ca0e8e5e))
+    (pin "3" (uuid ce9f43bb-1ac1-429b-b937-8cb7644ff17b))
+    (pin "4" (uuid da468338-9eec-4559-be33-6f820263669a))
+    (pin "5" (uuid 68f7904e-fb56-4941-a19f-a4e473a48f44))
+    (pin "6" (uuid 9bf6734c-6bda-4b70-9e9b-d3619275f7e0))
+    (pin "7" (uuid 5ccfa858-e0c1-4eec-98ab-583e2edb148d))
+    (pin "8" (uuid 23f98d58-66b3-4d8f-8d1a-74a34b19ea1b))
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/d490f402-3a4d-40a5-b165-30c74c6560b7"
