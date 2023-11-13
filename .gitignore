@@ -5,6 +5,7 @@
 *-backups
 *auto_saved_files*
 replicate_layout.log
+~*.lck
 
 # Temporary files
 *.000
