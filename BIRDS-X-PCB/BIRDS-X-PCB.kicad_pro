@@ -558,22 +558,6 @@
       "RF_System"
     ],
     [
-      "69450ea3-1431-409d-8bc6-7752e7bc3ab3",
-      "PINDiodeExperiment1"
-    ],
-    [
-      "24de0e99-26aa-4106-b99d-2d4b1437b640",
-      "PINDiodeExperiment2"
-    ],
-    [
-      "20e9fdd9-b39a-4397-9a05-a4dbf181acd2",
-      "PINDiodeExperiment3"
-    ],
-    [
-      "004149c1-7266-4be8-8957-13aaab4479fd",
-      "PINDiodeExperiment4"
-    ],
-    [
       "5755fbb2-55c5-474e-9234-a274af8db463",
       "TempSensors"
     ]
