@@ -597,6 +597,14 @@
       "RF_System"
     ],
     [
+      "6deb3b18-f0e5-4901-b4a2-9c2efdb4b3d1",
+      "LinearCCD1"
+    ],
+    [
+      "a6fc61cf-80e2-4390-ad53-8772a39289cc",
+      "LinearCCD2"
+    ],
+    [
       "5755fbb2-55c5-474e-9234-a274af8db463",
       "TempSensors"
     ]
