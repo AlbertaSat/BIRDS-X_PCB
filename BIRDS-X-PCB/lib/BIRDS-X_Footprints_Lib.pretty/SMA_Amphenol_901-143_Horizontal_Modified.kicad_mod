@@ -76,12 +76,7 @@
   (pad "2" thru_hole circle (at -2.54 2.54) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 0432e9f9-dc63-4f77-af17-f6fa16bf853f))
   (pad "2" thru_hole circle (at 2.54 -2.54) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 337e6b68-a99f-4cd9-9d5e-87942f39cfb3))
   (pad "2" thru_hole circle (at 2.54 2.54) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 5fbddc79-89f4-4da2-b086-94f26b96e588))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-143_Horizontal.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/60611002111501.stp"
+  (model "${KIPRJMOD}/lib/3D/60611002111501.stp"
     (offset (xyz 0 0 3.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
