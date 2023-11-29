@@ -85,7 +85,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/DRA818 v1.step"
+  (model "${KIPRJMOD}/lib/3D/DRA818 v1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

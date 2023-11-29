@@ -4,7 +4,10 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND",
+      "+3V3"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
@@ -63,8 +66,8 @@
       36,
       40
     ],
-    "visible_layers": "0009030_fffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "0009000_fffffff9",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "BIRDS-X-PCB.kicad_prl",
