@@ -1632,7 +1632,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0224") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -1641,7 +1641,7 @@
   (symbol (lib_id "power:+5V") (at 129.54 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05afd92d-db5d-453d-a3ee-b43091ac4172)
-    (property "Reference" "#PWR0206" (at 129.54 40.64 0)
+    (property "Reference" "#PWR0208" (at 129.54 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 129.54 33.02 0)
@@ -1657,7 +1657,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1666,7 +1666,7 @@
   (symbol (lib_id "power:+12V") (at 219.71 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05cb394e-5cc7-4017-bda1-6bb26af68aa9)
-    (property "Reference" "#PWR015" (at 219.71 66.04 0)
+    (property "Reference" "#PWR0223" (at 219.71 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 217.17 58.42 0)
@@ -1682,7 +1682,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -1720,7 +1720,7 @@
   (symbol (lib_id "power:+3V3") (at 171.45 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a6b6099-ca81-4255-8bef-4af4f6f490ae)
-    (property "Reference" "#PWR0219" (at 171.45 107.95 0)
+    (property "Reference" "#PWR0213" (at 171.45 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 171.45 100.33 0)
@@ -1736,7 +1736,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -1769,7 +1769,7 @@
           (reference "Q502") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q203") (unit 1)
+          (reference "Q201") (unit 1)
         )
       )
     )
@@ -1829,7 +1829,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1857,7 +1857,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -1866,7 +1866,7 @@
   (symbol (lib_id "Device:C") (at 166.37 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28e662e6-8e0e-4a80-882f-dfca242867ec)
-    (property "Reference" "C203" (at 158.75 69.85 0)
+    (property "Reference" "C205" (at 158.75 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 158.75 72.39 0)
@@ -1883,7 +1883,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C203") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -1892,7 +1892,7 @@
   (symbol (lib_id "Device:R") (at 57.15 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ddd5592-1181-4d4e-b554-0b65b6ced308)
-    (property "Reference" "R207" (at 59.69 133.35 0)
+    (property "Reference" "R202" (at 59.69 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "110k" (at 59.69 135.89 0)
@@ -1909,7 +1909,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R207") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -1937,7 +1937,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -1991,7 +1991,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -2000,10 +2000,10 @@
   (symbol (lib_id "Device:R") (at 213.36 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4d7988e3-ee85-4b89-87a2-b882dbf02b6d)
-    (property "Reference" "R204" (at 215.9 129.54 0)
+    (property "Reference" "R206" (at 215.9 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2k" (at 215.9 132.08 0)
+    (property "Value" "5.1k" (at 215.9 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 211.582 130.81 90)
@@ -2017,7 +2017,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R204") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -2045,7 +2045,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "power:+3V3") (at 130.81 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 548966ca-6f84-406b-a186-66433828a33d)
-    (property "Reference" "#PWR0207" (at 130.81 113.03 0)
+    (property "Reference" "#PWR0210" (at 130.81 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 130.81 105.41 0)
@@ -2070,7 +2070,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2079,7 +2079,7 @@
   (symbol (lib_id "Device:C") (at 179.07 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5578f72b-4141-4dcd-895c-30d2472cedfc)
-    (property "Reference" "C205" (at 181.61 69.85 0)
+    (property "Reference" "C206" (at 181.61 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 181.61 72.39 0)
@@ -2096,7 +2096,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C205") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -2124,7 +2124,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -2133,7 +2133,7 @@
   (symbol (lib_id "power:+12V") (at 171.45 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 642c49c7-773b-4b7f-b3c3-e88e196d98b4)
-    (property "Reference" "#PWR0222" (at 171.45 146.05 0)
+    (property "Reference" "#PWR0217" (at 171.45 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 168.91 138.43 0)
@@ -2149,7 +2149,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "Device:R") (at 76.2 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 647dea11-aa1f-4d31-bd83-f977b6dab0ee)
-    (property "Reference" "R201" (at 76.2 36.83 90)
+    (property "Reference" "R203" (at 76.2 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.51" (at 76.2 39.37 90)
@@ -2178,7 +2178,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R201") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -2187,7 +2187,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:AO3420") (at 96.52 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 657725a4-3542-4f56-a73e-1312b0b3dd4c)
-    (property "Reference" "Q202" (at 96.52 107.95 90)
+    (property "Reference" "Q204" (at 96.52 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AO3420" (at 96.52 110.49 90)
@@ -2205,7 +2205,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q202") (unit 1)
+          (reference "Q204") (unit 1)
         )
       )
     )
@@ -2214,7 +2214,7 @@
   (symbol (lib_id "Device:R") (at 55.88 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 676758cf-1175-4a0d-9216-97af3322bb75)
-    (property "Reference" "R206" (at 58.42 60.96 0)
+    (property "Reference" "R201" (at 58.42 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "110k" (at 58.42 63.5 0)
@@ -2231,7 +2231,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R206") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -2240,7 +2240,7 @@
   (symbol (lib_id "power:+3V3") (at 198.12 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b3b93a8-6e03-4e7a-85f3-a6d1be301bc0)
-    (property "Reference" "#PWR0215" (at 198.12 125.73 0)
+    (property "Reference" "#PWR0219" (at 198.12 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 198.12 118.11 0)
@@ -2256,7 +2256,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -2284,7 +2284,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -2293,7 +2293,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:AO3420") (at 95.25 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b2d0279-0926-4ce9-aed3-3a967e0c672e)
-    (property "Reference" "Q201" (at 95.25 35.56 90)
+    (property "Reference" "Q203" (at 95.25 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AO3420" (at 95.25 38.1 90)
@@ -2311,7 +2311,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q201") (unit 1)
+          (reference "Q203") (unit 1)
         )
       )
     )
@@ -2346,10 +2346,10 @@
   (symbol (lib_id "Device:R") (at 198.12 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 8a719e6b-1ae3-40f6-bce4-3f3446c1035f)
-    (property "Reference" "R203" (at 200.66 129.54 0)
+    (property "Reference" "R205" (at 200.66 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 200.66 132.08 0)
+    (property "Value" "3k3" (at 200.66 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 196.342 130.81 90)
@@ -2363,7 +2363,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R203") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -2372,7 +2372,7 @@
   (symbol (lib_id "Device:C") (at 129.54 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92bdfe57-847a-48c8-a32c-e1a9fce7c128)
-    (property "Reference" "C207" (at 132.08 120.65 0)
+    (property "Reference" "C204" (at 132.08 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 132.08 123.19 0)
@@ -2389,7 +2389,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C207") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -2424,7 +2424,7 @@
   (symbol (lib_id "Device:C") (at 227.33 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ecafdee-6221-45e8-bee9-0079fa95d67f)
-    (property "Reference" "C204" (at 229.87 71.12 0)
+    (property "Reference" "C208" (at 229.87 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 229.87 73.66 0)
@@ -2441,7 +2441,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C204") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -2469,7 +2469,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -2523,7 +2523,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -2532,7 +2532,7 @@
   (symbol (lib_id "power:+5V") (at 171.45 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9581797-53c1-466c-8d44-a0632004f80b)
-    (property "Reference" "#PWR0220" (at 171.45 127 0)
+    (property "Reference" "#PWR0215" (at 171.45 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 171.45 119.38 0)
@@ -2548,7 +2548,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -2583,10 +2583,10 @@
   (symbol (lib_id "Device:R") (at 228.6 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aa3336a5-e117-4aff-9c15-7a417af74b1a)
-    (property "Reference" "R205" (at 231.14 130.175 0)
+    (property "Reference" "R207" (at 231.14 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 231.14 132.715 0)
+    (property "Value" "51k" (at 231.14 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 226.822 130.81 90)
@@ -2600,7 +2600,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R205") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -2609,7 +2609,7 @@
   (symbol (lib_id "Device:C") (at 201.93 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid aa8f2a01-f620-458c-ba40-4ee1576b6972)
-    (property "Reference" "C206" (at 201.93 82.55 90)
+    (property "Reference" "C207" (at 201.93 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1n" (at 201.93 85.09 90)
@@ -2629,7 +2629,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C206") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -2657,7 +2657,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0223") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -2718,7 +2718,7 @@
   (symbol (lib_id "power:+5V") (at 213.36 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b698fd1b-2028-435f-ae08-aecab08f1782)
-    (property "Reference" "#PWR0213" (at 213.36 125.73 0)
+    (property "Reference" "#PWR0221" (at 213.36 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 213.36 118.11 0)
@@ -2734,7 +2734,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -2762,7 +2762,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -2771,7 +2771,7 @@
   (symbol (lib_id "Device:R") (at 77.47 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c05050f0-5cad-409c-ac96-84a28cb95af4)
-    (property "Reference" "R202" (at 77.47 109.22 90)
+    (property "Reference" "R204" (at 77.47 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.075" (at 77.47 111.76 90)
@@ -2791,7 +2791,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "R202") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -2819,7 +2819,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -2847,7 +2847,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -2856,7 +2856,7 @@
   (symbol (lib_id "power:+5V") (at 161.29 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2685920-321e-4f0e-8b4c-bb04d47c1118)
-    (property "Reference" "#PWR07" (at 161.29 53.34 0)
+    (property "Reference" "#PWR0211" (at 161.29 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 161.29 45.72 0)
@@ -2872,7 +2872,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -2907,7 +2907,7 @@
   (symbol (lib_id "Device:C") (at 128.27 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d47dafb6-ff43-4679-97b6-78924fa4f39c)
-    (property "Reference" "C208" (at 130.81 48.26 0)
+    (property "Reference" "C203" (at 130.81 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 130.81 50.8 0)
@@ -2924,7 +2924,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "C208") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -2933,7 +2933,7 @@
   (symbol (lib_id "power:+12V") (at 228.6 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df655546-9adb-46c3-bee4-a2ea98f51fd4)
-    (property "Reference" "#PWR0214" (at 228.6 125.73 0)
+    (property "Reference" "#PWR0225" (at 228.6 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 226.06 118.11 0)
@@ -2949,7 +2949,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -2977,7 +2977,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -3038,7 +3038,7 @@
           (reference "Q502") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "Q204") (unit 1)
+          (reference "Q202") (unit 1)
         )
       )
     )
@@ -3127,7 +3127,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/f0b1214b-f453-423f-b2cf-f5d10e08eafe"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )

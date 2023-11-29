@@ -976,7 +976,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C504") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -1005,7 +1005,7 @@
           (reference "C405") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C512") (unit 1)
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -1014,7 +1014,7 @@
   (symbol (lib_id "BIRDS-X_Symbols_Lib:DRA818V") (at 222.25 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22f7dacd-1b70-4955-aa45-54f7e613f2fd)
-    (property "Reference" "U503" (at 222.25 39.37 0)
+    (property "Reference" "U401" (at 222.25 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRA818V" (at 222.25 41.91 0)
@@ -1058,7 +1058,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "U503") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C507") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -1118,7 +1118,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0506") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C502") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0502") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -1207,7 +1207,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R512") (unit 1)
+          (reference "R413") (unit 1)
         )
       )
     )
@@ -1236,7 +1236,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R513") (unit 1)
+          (reference "R402") (unit 1)
         )
       )
     )
@@ -1267,7 +1267,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0501") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R502") (unit 1)
+          (reference "R404") (unit 1)
         )
       )
     )
@@ -1326,7 +1326,7 @@
       )
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0517") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -1335,7 +1335,7 @@
   (symbol (lib_id "Transistor_BJT:BC847") (at 73.66 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58b3688d-82af-4703-9827-8f85f03c330b)
-    (property "Reference" "Q501" (at 78.74 76.2 0)
+    (property "Reference" "Q401" (at 78.74 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC847" (at 78.74 78.74 0)
@@ -1356,7 +1356,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "Q501") (unit 1)
+          (reference "Q401") (unit 1)
         )
       )
     )
@@ -1385,7 +1385,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R511") (unit 1)
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -1414,7 +1414,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R503") (unit 1)
+          (reference "R407") (unit 1)
         )
       )
     )
@@ -1445,7 +1445,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0505") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -1474,7 +1474,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R505") (unit 1)
+          (reference "R409") (unit 1)
         )
       )
     )
@@ -1503,7 +1503,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C503") (unit 1)
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -1532,7 +1532,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R504") (unit 1)
+          (reference "R408") (unit 1)
         )
       )
     )
@@ -1561,7 +1561,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R510") (unit 1)
+          (reference "R406") (unit 1)
         )
       )
     )
@@ -1590,7 +1590,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C501") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -1621,7 +1621,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0504") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -1649,7 +1649,7 @@
           (reference "#PWR0207") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0503") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -1679,7 +1679,7 @@
       )
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0518") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
@@ -1708,7 +1708,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R508") (unit 1)
+          (reference "R411") (unit 1)
         )
       )
     )
@@ -1737,7 +1737,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R506") (unit 1)
+          (reference "R412") (unit 1)
         )
       )
     )
@@ -1766,7 +1766,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R509") (unit 1)
+          (reference "R405") (unit 1)
         )
       )
     )
@@ -1795,7 +1795,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R501") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -1824,7 +1824,7 @@
           (reference "R206") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "R507") (unit 1)
+          (reference "R410") (unit 1)
         )
       )
     )
@@ -1833,7 +1833,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 223.52 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca410a08-8e81-41cd-bb6b-decb4af8379e)
-    (property "Reference" "J501" (at 220.98 74.93 0)
+    (property "Reference" "J401" (at 220.98 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60611002111501" (at 215.9 77.47 0)
@@ -1850,7 +1850,7 @@
     (instances
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "J501") (unit 1)
+          (reference "J401") (unit 1)
         )
       )
     )
@@ -1880,7 +1880,7 @@
       )
       (project "BIRDS-X-PCB"
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0519") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -1909,7 +1909,7 @@
           (reference "C401") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "C506") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -1937,7 +1937,7 @@
           (reference "#PWR0408") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/c2796b15-795a-4d6e-ad4b-0ba87ded4bc9/245c031a-1c72-4f7a-bf07-271990525459"
-          (reference "#PWR0520") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
