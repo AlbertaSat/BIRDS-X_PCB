@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-09-07")
-    (rev "Rev5.1")
+    (date "2023-11-30")
+    (rev "Rev6")
   )
 
   (lib_symbols

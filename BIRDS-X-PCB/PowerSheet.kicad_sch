@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-09-07")
-    (rev "Rev5.1")
+    (date "2023-11-30")
+    (rev "Rev6")
   )
 
   (lib_symbols
@@ -1523,7 +1523,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 348d612a-1701-4239-a3fa-29e1b5ee03b0)
   )
-  (text "1 mA on 12V" (at 238.76 140.97 90)
+  (text "<1 mA on 12V" (at 238.76 140.97 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3927e6c3-09fd-4d84-bf14-5c89e76b4351)
   )
@@ -1555,6 +1555,10 @@
   (text "Protected 3V3\nMax \"1.5A\"\nI_TRIP_MIN = 1.71A" (at 132.08 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1494b99-e164-41bb-9eae-3a611cf048af)
+  )
+  (text "LED Color: Red" (at 207.01 161.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e8b4c10d-c87f-43cc-be53-67d22cc89d00)
   )
 
   (label "5V_Current_Sense" (at 82.55 44.45 270) (fields_autoplaced)
@@ -2570,6 +2574,9 @@
     (property "Datasheet" "~" (at 213.36 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C93128" (at 213.36 142.24 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ffbed256-4046-4ce7-9b37-ab76d76a76b2))
     (pin "2" (uuid e162f23a-1b7c-42f8-951f-0931767d5201))
     (instances
@@ -2679,6 +2686,9 @@
     (property "Datasheet" "~" (at 198.12 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C93128" (at 198.12 142.24 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6cbb52cb-3739-43c9-af47-af67d1c61c37))
     (pin "2" (uuid ad1a971a-3dd1-4745-93f5-19312e15da55))
     (instances
@@ -2703,6 +2713,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.6 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C93128" (at 228.6 142.24 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f6b49f63-3dd8-4a9f-b122-86a2ac9644f6))
