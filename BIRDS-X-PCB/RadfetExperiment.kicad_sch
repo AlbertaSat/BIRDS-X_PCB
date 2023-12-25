@@ -1350,6 +1350,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5e05e45-6a5f-49e2-b23d-6e0b27ae957d)
   )
+  (text "RFET_EN=0 => SW_B (GND)\nRFET_EN=1 => SW_A (I-Source)"
+    (at 49.53 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d3285b57-09f8-4613-a680-804bca863ffe)
+  )
   (text "Current sense connection.\nMust be shorted in\nnormal operation.\n\nExpect 12uA."
     (at 49.53 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

@@ -1005,7 +1005,6 @@
   )
 
   (no_connect (at 214.63 72.39) (uuid 789268c4-0277-4a85-a3b0-cb72a97f4fe9))
-  (no_connect (at 172.72 66.04) (uuid f3e09239-9aad-4699-aa8f-e28ec01e4d79))
 
   (wire (pts (xy 198.12 88.9) (xy 186.69 88.9))
     (stroke (width 0) (type default))
