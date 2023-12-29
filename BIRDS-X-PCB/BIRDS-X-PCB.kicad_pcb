@@ -9959,7 +9959,7 @@
     (property "Sheetname" "RadfetExperiment1")
     (path "/adc73a10-1d27-484e-8ce9-d638694b8e29/bfcee00c-d297-461f-b342-31253e4eda93")
     (attr smd)
-    (fp_text reference "U806" (at 0 -3.4 180) (layer "F.SilkS")
+    (fp_text reference "U806" (at -0.175 3.315 180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f6d23d68-3106-464a-b307-08ac033e96c8)
     )
