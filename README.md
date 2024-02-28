@@ -16,7 +16,7 @@ JASPER is a joint organization between the University of Alberta's AlbertaSat an
 
 ## System Block Diagram
 
-![JASPER BIRDS-X Block Diagram](./JASPER BIRDS-X Block Diagram.png)
+![JASPER BIRDS-X Block Diagram](/JASPER_BIRDS-X_Block_Diagram.png)
 
 ## Release Notes
 See the [GitHub Releases](https://github.com/AlbertaSat/BIRDS-X_PCB/releases) for this repo.
